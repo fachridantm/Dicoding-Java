@@ -1,4 +1,4 @@
-package com.dicoding.javafundamental.accessmodifier;
+package com.dicoding.javafundamental.accessmodifier.package1;
 
 public class KelasA {
 
@@ -15,5 +15,9 @@ public class KelasA {
         // Pemanggilan private member dan private function
         int hasil = functionA() + memberA;
         return hasil;
+    }
+
+    protected void methodC() {
+        System.out.println("Percobaan access modifier!!!");
     }
 }
