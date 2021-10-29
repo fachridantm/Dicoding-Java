@@ -9,5 +9,6 @@ public class Main {
         }
 
         System.out.println("Sampai " + Perhitungan.nilai);
+        System.out.println("getNilai memiliki nilai " + Perhitungan.getNilai());
     }
 }
